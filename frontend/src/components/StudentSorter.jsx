@@ -7,7 +7,6 @@ import StudentTable from "./StudentTable";
 import SelectStudentsFile from "./SelectStudentsFile";
 import ErrorMessage from "./ErrorMessage";
 import Button from "./SortButton";
-import fileDownload from 'js-file-download'
 
 function StudentSorter() {
   const [unsortedStudents, setUnsortedStudents] = useState();
