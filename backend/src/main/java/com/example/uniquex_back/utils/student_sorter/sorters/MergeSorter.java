@@ -13,7 +13,7 @@ public class MergeSorter implements Sorter {
         mergeSort(objects);
     }
 
-    public <E extends Comparable<E>> List<E> mergeSort(List<E> whole) {
+    private <E extends Comparable<E>> List<E> mergeSort(List<E> whole) {
         List<E> left = new ArrayList<>();
         List<E> right = new ArrayList<>();
         int center;
